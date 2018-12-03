@@ -1,0 +1,1375 @@
+# JMH version: 1.21
+# VM version: JDK 11.0.1, OpenJDK 64-Bit Server VM, 11.0.1+13
+# VM invoker: /usr/lib/jvm/java-11-openjdk-11.0.1.13-4.fc29.x86_64/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.greenrecyclebin.MyBenchmark.testMethod
+# Parameters: (minSize = 0)
+
+# Run progress: 0.00% complete, ETA 00:33:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 2281145.940 ±(99.9%) 102070.228 ns/op
+# Warmup Iteration   2: 6127945.390 ±(99.9%) 116115.906 ns/op
+# Warmup Iteration   3: 8455868.632 ±(99.9%) 248933.690 ns/op
+# Warmup Iteration   4: 10935234.313 ±(99.9%) 265088.982 ns/op
+# Warmup Iteration   5: 11712216.685 ±(99.9%) 311015.559 ns/op
+Iteration   1: 11975584.230 ±(99.9%) 318973.194 ns/op
+                 testMethod·p0.00:   9076736.000 ns/op
+                 testMethod·p0.50:   11083776.000 ns/op
+                 testMethod·p0.90:   14524416.000 ns/op
+                 testMethod·p0.95:   17514496.000 ns/op
+                 testMethod·p0.99:   24246681.600 ns/op
+                 testMethod·p0.999:  27787264.000 ns/op
+                 testMethod·p0.9999: 27787264.000 ns/op
+                 testMethod·p1.00:   27787264.000 ns/op
+
+Iteration   2: 12979894.192 ±(99.9%) 297346.792 ns/op
+                 testMethod·p0.00:   9814016.000 ns/op
+                 testMethod·p0.50:   12623872.000 ns/op
+                 testMethod·p0.90:   16184115.200 ns/op
+                 testMethod·p0.95:   17833984.000 ns/op
+                 testMethod·p0.99:   21674393.600 ns/op
+                 testMethod·p0.999:  23920640.000 ns/op
+                 testMethod·p0.9999: 23920640.000 ns/op
+                 testMethod·p1.00:   23920640.000 ns/op
+
+Iteration   3: 14419529.988 ±(99.9%) 275975.719 ns/op
+                 testMethod·p0.00:   10223616.000 ns/op
+                 testMethod·p0.50:   14106624.000 ns/op
+                 testMethod·p0.90:   16921395.200 ns/op
+                 testMethod·p0.95:   18448384.000 ns/op
+                 testMethod·p0.99:   21036400.640 ns/op
+                 testMethod·p0.999:  23691264.000 ns/op
+                 testMethod·p0.9999: 23691264.000 ns/op
+                 testMethod·p1.00:   23691264.000 ns/op
+
+Iteration   4: 17003805.605 ±(99.9%) 376457.144 ns/op
+                 testMethod·p0.00:   12992512.000 ns/op
+                 testMethod·p0.50:   16809984.000 ns/op
+                 testMethod·p0.90:   20155596.800 ns/op
+                 testMethod·p0.95:   22136422.400 ns/op
+                 testMethod·p0.99:   27036221.440 ns/op
+                 testMethod·p0.999:  29163520.000 ns/op
+                 testMethod·p0.9999: 29163520.000 ns/op
+                 testMethod·p1.00:   29163520.000 ns/op
+
+Iteration   5: 16694693.244 ±(99.9%) 396932.811 ns/op
+                 testMethod·p0.00:   12976128.000 ns/op
+                 testMethod·p0.50:   16506880.000 ns/op
+                 testMethod·p0.90:   19824640.000 ns/op
+                 testMethod·p0.95:   21726822.400 ns/op
+                 testMethod·p0.99:   27691253.760 ns/op
+                 testMethod·p0.999:  38928384.000 ns/op
+                 testMethod·p0.9999: 38928384.000 ns/op
+                 testMethod·p1.00:   38928384.000 ns/op
+
+
+# Run progress: 5.00% complete, ETA 00:31:47
+# Fork: 2 of 5
+# Warmup Iteration   1: 2467562.730 ±(99.9%) 106589.432 ns/op
+# Warmup Iteration   2: 6108487.956 ±(99.9%) 145638.607 ns/op
+# Warmup Iteration   3: 7225557.859 ±(99.9%) 175472.409 ns/op
+# Warmup Iteration   4: 11456230.165 ±(99.9%) 333629.537 ns/op
+# Warmup Iteration   5: 11521844.854 ±(99.9%) 268471.562 ns/op
+Iteration   1: 11588391.796 ±(99.9%) 180165.191 ns/op
+                 testMethod·p0.00:   9306112.000 ns/op
+                 testMethod·p0.50:   11124736.000 ns/op
+                 testMethod·p0.90:   13757644.800 ns/op
+                 testMethod·p0.95:   14347468.800 ns/op
+                 testMethod·p0.99:   15517450.240 ns/op
+                 testMethod·p0.999:  19300352.000 ns/op
+                 testMethod·p0.9999: 19300352.000 ns/op
+                 testMethod·p1.00:   19300352.000 ns/op
+
+Iteration   2: 12624565.886 ±(99.9%) 210058.115 ns/op
+                 testMethod·p0.00:   9863168.000 ns/op
+                 testMethod·p0.50:   12664832.000 ns/op
+                 testMethod·p0.90:   14791475.200 ns/op
+                 testMethod·p0.95:   15351808.000 ns/op
+                 testMethod·p0.99:   17115381.760 ns/op
+                 testMethod·p0.999:  20611072.000 ns/op
+                 testMethod·p0.9999: 20611072.000 ns/op
+                 testMethod·p1.00:   20611072.000 ns/op
+
+Iteration   3: 14540083.499 ±(99.9%) 276946.360 ns/op
+                 testMethod·p0.00:   10731520.000 ns/op
+                 testMethod·p0.50:   14401536.000 ns/op
+                 testMethod·p0.90:   17180262.400 ns/op
+                 testMethod·p0.95:   17889689.600 ns/op
+                 testMethod·p0.99:   20042547.200 ns/op
+                 testMethod·p0.999:  24936448.000 ns/op
+                 testMethod·p0.9999: 24936448.000 ns/op
+                 testMethod·p1.00:   24936448.000 ns/op
+
+Iteration   4: 15824740.456 ±(99.9%) 238024.039 ns/op
+                 testMethod·p0.00:   12943360.000 ns/op
+                 testMethod·p0.50:   16154624.000 ns/op
+                 testMethod·p0.90:   17793024.000 ns/op
+                 testMethod·p0.95:   18492620.800 ns/op
+                 testMethod·p0.99:   21388328.960 ns/op
+                 testMethod·p0.999:  25919488.000 ns/op
+                 testMethod·p0.9999: 25919488.000 ns/op
+                 testMethod·p1.00:   25919488.000 ns/op
+
+Iteration   5: 16284439.804 ±(99.9%) 224984.799 ns/op
+                 testMethod·p0.00:   13402112.000 ns/op
+                 testMethod·p0.50:   16564224.000 ns/op
+                 testMethod·p0.90:   17989632.000 ns/op
+                 testMethod·p0.95:   18730188.800 ns/op
+                 testMethod·p0.99:   20686438.400 ns/op
+                 testMethod·p0.999:  25821184.000 ns/op
+                 testMethod·p0.9999: 25821184.000 ns/op
+                 testMethod·p1.00:   25821184.000 ns/op
+
+
+# Run progress: 10.00% complete, ETA 00:30:08
+# Fork: 3 of 5
+# Warmup Iteration   1: 2372163.367 ±(99.9%) 107395.253 ns/op
+# Warmup Iteration   2: 6026170.744 ±(99.9%) 118463.038 ns/op
+# Warmup Iteration   3: 8038176.852 ±(99.9%) 185701.590 ns/op
+# Warmup Iteration   4: 10268979.305 ±(99.9%) 163725.021 ns/op
+# Warmup Iteration   5: 11304236.358 ±(99.9%) 180478.005 ns/op
+Iteration   1: 11907692.014 ±(99.9%) 179569.437 ns/op
+                 testMethod·p0.00:   9338880.000 ns/op
+                 testMethod·p0.50:   11894784.000 ns/op
+                 testMethod·p0.90:   13828096.000 ns/op
+                 testMethod·p0.95:   14254080.000 ns/op
+                 testMethod·p0.99:   15564800.000 ns/op
+                 testMethod·p0.999:  17989632.000 ns/op
+                 testMethod·p0.9999: 17989632.000 ns/op
+                 testMethod·p1.00:   17989632.000 ns/op
+
+Iteration   2: 12571721.419 ±(99.9%) 189899.872 ns/op
+                 testMethod·p0.00:   9814016.000 ns/op
+                 testMethod·p0.50:   12746752.000 ns/op
+                 testMethod·p0.90:   14532608.000 ns/op
+                 testMethod·p0.95:   15011020.800 ns/op
+                 testMethod·p0.99:   16502620.160 ns/op
+                 testMethod·p0.999:  18874368.000 ns/op
+                 testMethod·p0.9999: 18874368.000 ns/op
+                 testMethod·p1.00:   18874368.000 ns/op
+
+Iteration   3: 14375840.230 ±(99.9%) 234736.504 ns/op
+                 testMethod·p0.00:   10420224.000 ns/op
+                 testMethod·p0.50:   14368768.000 ns/op
+                 testMethod·p0.90:   16521625.600 ns/op
+                 testMethod·p0.95:   17203200.000 ns/op
+                 testMethod·p0.99:   19499581.440 ns/op
+                 testMethod·p0.999:  22249472.000 ns/op
+                 testMethod·p0.9999: 22249472.000 ns/op
+                 testMethod·p1.00:   22249472.000 ns/op
+
+Iteration   4: 16451260.632 ±(99.9%) 480311.918 ns/op
+                 testMethod·p0.00:   12795904.000 ns/op
+                 testMethod·p0.50:   15998976.000 ns/op
+                 testMethod·p0.90:   20099891.200 ns/op
+                 testMethod·p0.95:   23224320.000 ns/op
+                 testMethod·p0.99:   32493404.160 ns/op
+                 testMethod·p0.999:  39714816.000 ns/op
+                 testMethod·p0.9999: 39714816.000 ns/op
+                 testMethod·p1.00:   39714816.000 ns/op
+
+Iteration   5: 17947345.957 ±(99.9%) 472664.056 ns/op
+                 testMethod·p0.00:   13467648.000 ns/op
+                 testMethod·p0.50:   17596416.000 ns/op
+                 testMethod·p0.90:   22806528.000 ns/op
+                 testMethod·p0.95:   24618598.400 ns/op
+                 testMethod·p0.99:   29013770.240 ns/op
+                 testMethod·p0.999:  30048256.000 ns/op
+                 testMethod·p0.9999: 30048256.000 ns/op
+                 testMethod·p1.00:   30048256.000 ns/op
+
+
+# Run progress: 15.00% complete, ETA 00:28:27
+# Fork: 4 of 5
+# Warmup Iteration   1: 2430819.554 ±(99.9%) 116422.509 ns/op
+# Warmup Iteration   2: 6176397.711 ±(99.9%) 161006.416 ns/op
+# Warmup Iteration   3: 8362904.913 ±(99.9%) 243440.403 ns/op
+# Warmup Iteration   4: 11271165.688 ±(99.9%) 318807.073 ns/op
+# Warmup Iteration   5: 12747514.776 ±(99.9%) 366839.910 ns/op
+Iteration   1: 14225979.806 ±(99.9%) 434591.722 ns/op
+                 testMethod·p0.00:   9256960.000 ns/op
+                 testMethod·p0.50:   14213120.000 ns/op
+                 testMethod·p0.90:   18448384.000 ns/op
+                 testMethod·p0.95:   20296499.200 ns/op
+                 testMethod·p0.99:   25679298.560 ns/op
+                 testMethod·p0.999:  34406400.000 ns/op
+                 testMethod·p0.9999: 34406400.000 ns/op
+                 testMethod·p1.00:   34406400.000 ns/op
+
+Iteration   2: 13611287.019 ±(99.9%) 375234.720 ns/op
+                 testMethod·p0.00:   9535488.000 ns/op
+                 testMethod·p0.50:   13426688.000 ns/op
+                 testMethod·p0.90:   17219584.000 ns/op
+                 testMethod·p0.95:   19259392.000 ns/op
+                 testMethod·p0.99:   25229721.600 ns/op
+                 testMethod·p0.999:  28278784.000 ns/op
+                 testMethod·p0.9999: 28278784.000 ns/op
+                 testMethod·p1.00:   28278784.000 ns/op
+
+Iteration   3: 13411505.787 ±(99.9%) 316405.176 ns/op
+                 testMethod·p0.00:   10027008.000 ns/op
+                 testMethod·p0.50:   13418496.000 ns/op
+                 testMethod·p0.90:   16754278.400 ns/op
+                 testMethod·p0.95:   17838899.200 ns/op
+                 testMethod·p0.99:   21105213.440 ns/op
+                 testMethod·p0.999:  31686656.000 ns/op
+                 testMethod·p0.9999: 31686656.000 ns/op
+                 testMethod·p1.00:   31686656.000 ns/op
+
+Iteration   4: 17738691.979 ±(99.9%) 447072.465 ns/op
+                 testMethod·p0.00:   12894208.000 ns/op
+                 testMethod·p0.50:   17661952.000 ns/op
+                 testMethod·p0.90:   21220556.800 ns/op
+                 testMethod·p0.95:   23422566.400 ns/op
+                 testMethod·p0.99:   29067837.440 ns/op
+                 testMethod·p0.999:  34340864.000 ns/op
+                 testMethod·p0.9999: 34340864.000 ns/op
+                 testMethod·p1.00:   34340864.000 ns/op
+
+Iteration   5: 18402701.908 ±(99.9%) 578753.985 ns/op
+                 testMethod·p0.00:   13205504.000 ns/op
+                 testMethod·p0.50:   17825792.000 ns/op
+                 testMethod·p0.90:   23783014.400 ns/op
+                 testMethod·p0.95:   26076774.400 ns/op
+                 testMethod·p0.99:   31849185.280 ns/op
+                 testMethod·p0.999:  40763392.000 ns/op
+                 testMethod·p0.9999: 40763392.000 ns/op
+                 testMethod·p1.00:   40763392.000 ns/op
+
+
+# Run progress: 20.00% complete, ETA 00:26:47
+# Fork: 5 of 5
+# Warmup Iteration   1: 2424114.393 ±(99.9%) 123126.109 ns/op
+# Warmup Iteration   2: 6610908.713 ±(99.9%) 206037.299 ns/op
+# Warmup Iteration   3: 7944115.180 ±(99.9%) 222832.613 ns/op
+# Warmup Iteration   4: 11621997.076 ±(99.9%) 348219.965 ns/op
+# Warmup Iteration   5: 11498529.032 ±(99.9%) 277099.328 ns/op
+Iteration   1: 12438006.436 ±(99.9%) 344776.657 ns/op
+                 testMethod·p0.00:   9060352.000 ns/op
+                 testMethod·p0.50:   11976704.000 ns/op
+                 testMethod·p0.90:   15187968.000 ns/op
+                 testMethod·p0.95:   17098342.400 ns/op
+                 testMethod·p0.99:   24438374.400 ns/op
+                 testMethod·p0.999:  29622272.000 ns/op
+                 testMethod·p0.9999: 29622272.000 ns/op
+                 testMethod·p1.00:   29622272.000 ns/op
+
+Iteration   2: 13389505.544 ±(99.9%) 359429.733 ns/op
+                 testMethod·p0.00:   9666560.000 ns/op
+                 testMethod·p0.50:   13426688.000 ns/op
+                 testMethod·p0.90:   16257843.200 ns/op
+                 testMethod·p0.95:   18381209.600 ns/op
+                 testMethod·p0.99:   25320488.960 ns/op
+                 testMethod·p0.999:  32243712.000 ns/op
+                 testMethod·p0.9999: 32243712.000 ns/op
+                 testMethod·p1.00:   32243712.000 ns/op
+
+Iteration   3: 13994509.644 ±(99.9%) 361131.777 ns/op
+                 testMethod·p0.00:   10141696.000 ns/op
+                 testMethod·p0.50:   13942784.000 ns/op
+                 testMethod·p0.90:   17321164.800 ns/op
+                 testMethod·p0.95:   18641715.200 ns/op
+                 testMethod·p0.99:   24305336.320 ns/op
+                 testMethod·p0.999:  34537472.000 ns/op
+                 testMethod·p0.9999: 34537472.000 ns/op
+                 testMethod·p1.00:   34537472.000 ns/op
+
+Iteration   4: 23725199.506 ±(99.9%) 847818.913 ns/op
+                 testMethod·p0.00:   13320192.000 ns/op
+                 testMethod·p0.50:   23658496.000 ns/op
+                 testMethod·p0.90:   30788812.800 ns/op
+                 testMethod·p0.95:   32728678.400 ns/op
+                 testMethod·p0.99:   37795921.920 ns/op
+                 testMethod·p0.999:  42008576.000 ns/op
+                 testMethod·p0.9999: 42008576.000 ns/op
+                 testMethod·p1.00:   42008576.000 ns/op
+
+Iteration   5: 19907375.936 ±(99.9%) 942558.496 ns/op
+                 testMethod·p0.00:   13303808.000 ns/op
+                 testMethod·p0.50:   18120704.000 ns/op
+                 testMethod·p0.90:   29681254.400 ns/op
+                 testMethod·p0.95:   34691481.600 ns/op
+                 testMethod·p0.99:   44300369.920 ns/op
+                 testMethod·p0.999:  46465024.000 ns/op
+                 testMethod·p0.9999: 46465024.000 ns/op
+                 testMethod·p1.00:   46465024.000 ns/op
+
+
+
+Result "io.github.greenrecyclebin.MyBenchmark.testMethod":
+  N = 17029
+  mean = 14662671.695 ±(99.9%) 98223.314 ns/op
+
+  Histogram, ns/op:
+    [       0.000,  5000000.000) = 0 
+    [ 5000000.000, 10000000.000) = 696 
+    [10000000.000, 15000000.000) = 9919 
+    [15000000.000, 20000000.000) = 5186 
+    [20000000.000, 25000000.000) = 810 
+    [25000000.000, 30000000.000) = 290 
+    [30000000.000, 35000000.000) = 92 
+    [35000000.000, 40000000.000) = 23 
+    [40000000.000, 45000000.000) = 10 
+
+  Percentiles, ns/op:
+      p(0.0000) = 9060352.000 ns/op
+     p(50.0000) = 14024704.000 ns/op
+     p(90.0000) = 18907136.000 ns/op
+     p(95.0000) = 21544960.000 ns/op
+     p(99.0000) = 28662169.600 ns/op
+     p(99.9000) = 39643381.760 ns/op
+     p(99.9900) = 46280736.768 ns/op
+     p(99.9990) = 46465024.000 ns/op
+     p(99.9999) = 46465024.000 ns/op
+    p(100.0000) = 46465024.000 ns/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.1, OpenJDK 64-Bit Server VM, 11.0.1+13
+# VM invoker: /usr/lib/jvm/java-11-openjdk-11.0.1.13-4.fc29.x86_64/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.greenrecyclebin.MyBenchmark.testMethod
+# Parameters: (minSize = 1)
+
+# Run progress: 25.00% complete, ETA 00:25:07
+# Fork: 1 of 5
+# Warmup Iteration   1: 2352274.242 ±(99.9%) 104274.778 ns/op
+# Warmup Iteration   2: 5917478.567 ±(99.9%) 169865.776 ns/op
+# Warmup Iteration   3: 8675406.495 ±(99.9%) 206094.140 ns/op
+# Warmup Iteration   4: 9213543.911 ±(99.9%) 196107.246 ns/op
+# Warmup Iteration   5: 11441155.519 ±(99.9%) 407572.273 ns/op
+Iteration   1: 12978357.333 ±(99.9%) 463435.658 ns/op
+                 testMethod·p0.00:   7774208.000 ns/op
+                 testMethod·p0.50:   12492800.000 ns/op
+                 testMethod·p0.90:   17176985.600 ns/op
+                 testMethod·p0.95:   20678246.400 ns/op
+                 testMethod·p0.99:   27207598.080 ns/op
+                 testMethod·p0.999:  30441472.000 ns/op
+                 testMethod·p0.9999: 30441472.000 ns/op
+                 testMethod·p1.00:   30441472.000 ns/op
+
+Iteration   2: 15162523.152 ±(99.9%) 549849.035 ns/op
+                 testMethod·p0.00:   9093120.000 ns/op
+                 testMethod·p0.50:   14901248.000 ns/op
+                 testMethod·p0.90:   18835046.400 ns/op
+                 testMethod·p0.95:   21856256.000 ns/op
+                 testMethod·p0.99:   35598499.840 ns/op
+                 testMethod·p0.999:  42663936.000 ns/op
+                 testMethod·p0.9999: 42663936.000 ns/op
+                 testMethod·p1.00:   42663936.000 ns/op
+
+Iteration   3: 13322726.059 ±(99.9%) 270733.041 ns/op
+                 testMethod·p0.00:   10371072.000 ns/op
+                 testMethod·p0.50:   13557760.000 ns/op
+                 testMethod·p0.90:   15433728.000 ns/op
+                 testMethod·p0.95:   15925248.000 ns/op
+                 testMethod·p0.99:   19604111.360 ns/op
+                 testMethod·p0.999:  37945344.000 ns/op
+                 testMethod·p0.9999: 37945344.000 ns/op
+                 testMethod·p1.00:   37945344.000 ns/op
+
+Iteration   4: 13698168.636 ±(99.9%) 237557.247 ns/op
+                 testMethod·p0.00:   9961472.000 ns/op
+                 testMethod·p0.50:   14057472.000 ns/op
+                 testMethod·p0.90:   15953100.800 ns/op
+                 testMethod·p0.95:   16653516.800 ns/op
+                 testMethod·p0.99:   19496960.000 ns/op
+                 testMethod·p0.999:  22347776.000 ns/op
+                 testMethod·p0.9999: 22347776.000 ns/op
+                 testMethod·p1.00:   22347776.000 ns/op
+
+Iteration   5: 14106947.977 ±(99.9%) 233097.708 ns/op
+                 testMethod·p0.00:   10993664.000 ns/op
+                 testMethod·p0.50:   14622720.000 ns/op
+                 testMethod·p0.90:   16221798.400 ns/op
+                 testMethod·p0.95:   16695296.000 ns/op
+                 testMethod·p0.99:   18546688.000 ns/op
+                 testMethod·p0.999:  21987328.000 ns/op
+                 testMethod·p0.9999: 21987328.000 ns/op
+                 testMethod·p1.00:   21987328.000 ns/op
+
+
+# Run progress: 30.00% complete, ETA 00:23:27
+# Fork: 2 of 5
+# Warmup Iteration   1: 2275677.224 ±(99.9%) 92427.855 ns/op
+# Warmup Iteration   2: 5592955.760 ±(99.9%) 131721.063 ns/op
+# Warmup Iteration   3: 8334491.566 ±(99.9%) 174158.900 ns/op
+# Warmup Iteration   4: 9217558.220 ±(99.9%) 209738.937 ns/op
+# Warmup Iteration   5: 9681785.054 ±(99.9%) 191600.772 ns/op
+Iteration   1: 11724263.333 ±(99.9%) 207777.386 ns/op
+                 testMethod·p0.00:   7200768.000 ns/op
+                 testMethod·p0.50:   11255808.000 ns/op
+                 testMethod·p0.90:   14201651.200 ns/op
+                 testMethod·p0.95:   14588313.600 ns/op
+                 testMethod·p0.99:   16606822.400 ns/op
+                 testMethod·p0.999:  20447232.000 ns/op
+                 testMethod·p0.9999: 20447232.000 ns/op
+                 testMethod·p1.00:   20447232.000 ns/op
+
+Iteration   2: 12358909.465 ±(99.9%) 199516.487 ns/op
+                 testMethod·p0.00:   10059776.000 ns/op
+                 testMethod·p0.50:   11952128.000 ns/op
+                 testMethod·p0.90:   14665318.400 ns/op
+                 testMethod·p0.95:   15024128.000 ns/op
+                 testMethod·p0.99:   16366141.440 ns/op
+                 testMethod·p0.999:  17956864.000 ns/op
+                 testMethod·p0.9999: 17956864.000 ns/op
+                 testMethod·p1.00:   17956864.000 ns/op
+
+Iteration   3: 12887992.650 ±(99.9%) 207182.984 ns/op
+                 testMethod·p0.00:   10174464.000 ns/op
+                 testMethod·p0.50:   12550144.000 ns/op
+                 testMethod·p0.90:   15171584.000 ns/op
+                 testMethod·p0.95:   15813836.800 ns/op
+                 testMethod·p0.99:   17201889.280 ns/op
+                 testMethod·p0.999:  20185088.000 ns/op
+                 testMethod·p0.9999: 20185088.000 ns/op
+                 testMethod·p1.00:   20185088.000 ns/op
+
+Iteration   4: 13830705.640 ±(99.9%) 257919.700 ns/op
+                 testMethod·p0.00:   10895360.000 ns/op
+                 testMethod·p0.50:   14057472.000 ns/op
+                 testMethod·p0.90:   16374169.600 ns/op
+                 testMethod·p0.95:   17165516.800 ns/op
+                 testMethod·p0.99:   20230635.520 ns/op
+                 testMethod·p0.999:  22708224.000 ns/op
+                 testMethod·p0.9999: 22708224.000 ns/op
+                 testMethod·p1.00:   22708224.000 ns/op
+
+Iteration   5: 16537125.298 ±(99.9%) 498931.511 ns/op
+                 testMethod·p0.00:   11321344.000 ns/op
+                 testMethod·p0.50:   16228352.000 ns/op
+                 testMethod·p0.90:   21004288.000 ns/op
+                 testMethod·p0.95:   23126016.000 ns/op
+                 testMethod·p0.99:   30233395.200 ns/op
+                 testMethod·p0.999:  44040192.000 ns/op
+                 testMethod·p0.9999: 44040192.000 ns/op
+                 testMethod·p1.00:   44040192.000 ns/op
+
+
+# Run progress: 35.00% complete, ETA 00:21:46
+# Fork: 3 of 5
+# Warmup Iteration   1: 2388879.969 ±(99.9%) 93546.755 ns/op
+# Warmup Iteration   2: 5593486.127 ±(99.9%) 169042.888 ns/op
+# Warmup Iteration   3: 8266645.776 ±(99.9%) 207893.759 ns/op
+# Warmup Iteration   4: 8733725.564 ±(99.9%) 195636.311 ns/op
+# Warmup Iteration   5: 9654953.346 ±(99.9%) 207042.128 ns/op
+Iteration   1: 12413195.796 ±(99.9%) 278869.240 ns/op
+                 testMethod·p0.00:   7602176.000 ns/op
+                 testMethod·p0.50:   12451840.000 ns/op
+                 testMethod·p0.90:   15171584.000 ns/op
+                 testMethod·p0.95:   16433152.000 ns/op
+                 testMethod·p0.99:   18574213.120 ns/op
+                 testMethod·p0.999:  24412160.000 ns/op
+                 testMethod·p0.9999: 24412160.000 ns/op
+                 testMethod·p1.00:   24412160.000 ns/op
+
+Iteration   2: 13850047.379 ±(99.9%) 316389.818 ns/op
+                 testMethod·p0.00:   10010624.000 ns/op
+                 testMethod·p0.50:   13877248.000 ns/op
+                 testMethod·p0.90:   16773939.200 ns/op
+                 testMethod·p0.95:   18494259.200 ns/op
+                 testMethod·p0.99:   22199009.280 ns/op
+                 testMethod·p0.999:  24346624.000 ns/op
+                 testMethod·p0.9999: 24346624.000 ns/op
+                 testMethod·p1.00:   24346624.000 ns/op
+
+Iteration   3: 14932730.260 ±(99.9%) 463258.155 ns/op
+                 testMethod·p0.00:   9961472.000 ns/op
+                 testMethod·p0.50:   14565376.000 ns/op
+                 testMethod·p0.90:   19333120.000 ns/op
+                 testMethod·p0.95:   22216704.000 ns/op
+                 testMethod·p0.99:   27282636.800 ns/op
+                 testMethod·p0.999:  31981568.000 ns/op
+                 testMethod·p0.9999: 31981568.000 ns/op
+                 testMethod·p1.00:   31981568.000 ns/op
+
+Iteration   4: 13746874.630 ±(99.9%) 322005.321 ns/op
+                 testMethod·p0.00:   10371072.000 ns/op
+                 testMethod·p0.50:   13860864.000 ns/op
+                 testMethod·p0.90:   16501964.800 ns/op
+                 testMethod·p0.95:   17661952.000 ns/op
+                 testMethod·p0.99:   21885091.840 ns/op
+                 testMethod·p0.999:  36896768.000 ns/op
+                 testMethod·p0.9999: 36896768.000 ns/op
+                 testMethod·p1.00:   36896768.000 ns/op
+
+Iteration   5: 13344100.828 ±(99.9%) 261272.925 ns/op
+                 testMethod·p0.00:   10469376.000 ns/op
+                 testMethod·p0.50:   13008896.000 ns/op
+                 testMethod·p0.90:   15925248.000 ns/op
+                 testMethod·p0.95:   16678912.000 ns/op
+                 testMethod·p0.99:   18956288.000 ns/op
+                 testMethod·p0.999:  33882112.000 ns/op
+                 testMethod·p0.9999: 33882112.000 ns/op
+                 testMethod·p1.00:   33882112.000 ns/op
+
+
+# Run progress: 40.00% complete, ETA 00:20:05
+# Fork: 4 of 5
+# Warmup Iteration   1: 2161320.211 ±(99.9%) 91623.924 ns/op
+# Warmup Iteration   2: 6064293.785 ±(99.9%) 184296.460 ns/op
+# Warmup Iteration   3: 10346097.011 ±(99.9%) 337691.134 ns/op
+# Warmup Iteration   4: 10457075.133 ±(99.9%) 342941.681 ns/op
+# Warmup Iteration   5: 9380186.141 ±(99.9%) 196635.572 ns/op
+Iteration   1: 11019833.140 ±(99.9%) 218407.632 ns/op
+                 testMethod·p0.00:   7569408.000 ns/op
+                 testMethod·p0.50:   10747904.000 ns/op
+                 testMethod·p0.90:   13697024.000 ns/op
+                 testMethod·p0.95:   14347468.800 ns/op
+                 testMethod·p0.99:   16182149.120 ns/op
+                 testMethod·p0.999:  17268736.000 ns/op
+                 testMethod·p0.9999: 17268736.000 ns/op
+                 testMethod·p1.00:   17268736.000 ns/op
+
+Iteration   2: 12027926.181 ±(99.9%) 192291.063 ns/op
+                 testMethod·p0.00:   9584640.000 ns/op
+                 testMethod·p0.50:   11616256.000 ns/op
+                 testMethod·p0.90:   14221312.000 ns/op
+                 testMethod·p0.95:   14630912.000 ns/op
+                 testMethod·p0.99:   16217538.560 ns/op
+                 testMethod·p0.999:  18972672.000 ns/op
+                 testMethod·p0.9999: 18972672.000 ns/op
+                 testMethod·p1.00:   18972672.000 ns/op
+
+Iteration   3: 12831153.787 ±(99.9%) 281165.261 ns/op
+                 testMethod·p0.00:   10141696.000 ns/op
+                 testMethod·p0.50:   12320768.000 ns/op
+                 testMethod·p0.90:   15220736.000 ns/op
+                 testMethod·p0.95:   16416768.000 ns/op
+                 testMethod·p0.99:   21174681.600 ns/op
+                 testMethod·p0.999:  29032448.000 ns/op
+                 testMethod·p0.9999: 29032448.000 ns/op
+                 testMethod·p1.00:   29032448.000 ns/op
+
+Iteration   4: 14635932.903 ±(99.9%) 457403.139 ns/op
+                 testMethod·p0.00:   10682368.000 ns/op
+                 testMethod·p0.50:   14245888.000 ns/op
+                 testMethod·p0.90:   19247923.200 ns/op
+                 testMethod·p0.95:   21381120.000 ns/op
+                 testMethod·p0.99:   28744417.280 ns/op
+                 testMethod·p0.999:  35717120.000 ns/op
+                 testMethod·p0.9999: 35717120.000 ns/op
+                 testMethod·p1.00:   35717120.000 ns/op
+
+Iteration   5: 14978635.994 ±(99.9%) 354444.568 ns/op
+                 testMethod·p0.00:   11124736.000 ns/op
+                 testMethod·p0.50:   14991360.000 ns/op
+                 testMethod·p0.90:   17996185.600 ns/op
+                 testMethod·p0.95:   19837747.200 ns/op
+                 testMethod·p0.99:   24925962.240 ns/op
+                 testMethod·p0.999:  29884416.000 ns/op
+                 testMethod·p0.9999: 29884416.000 ns/op
+                 testMethod·p1.00:   29884416.000 ns/op
+
+
+# Run progress: 45.00% complete, ETA 00:18:25
+# Fork: 5 of 5
+# Warmup Iteration   1: 2171985.611 ±(99.9%) 82277.698 ns/op
+# Warmup Iteration   2: 5853910.787 ±(99.9%) 153932.113 ns/op
+# Warmup Iteration   3: 8162594.538 ±(99.9%) 184180.932 ns/op
+# Warmup Iteration   4: 9035071.710 ±(99.9%) 175520.670 ns/op
+# Warmup Iteration   5: 9970130.012 ±(99.9%) 231018.011 ns/op
+Iteration   1: 12178779.985 ±(99.9%) 194788.772 ns/op
+                 testMethod·p0.00:   9584640.000 ns/op
+                 testMethod·p0.50:   12075008.000 ns/op
+                 testMethod·p0.90:   14270464.000 ns/op
+                 testMethod·p0.95:   14760345.600 ns/op
+                 testMethod·p0.99:   16154624.000 ns/op
+                 testMethod·p0.999:  20447232.000 ns/op
+                 testMethod·p0.9999: 20447232.000 ns/op
+                 testMethod·p1.00:   20447232.000 ns/op
+
+Iteration   2: 13270691.867 ±(99.9%) 316796.644 ns/op
+                 testMethod·p0.00:   10059776.000 ns/op
+                 testMethod·p0.50:   13074432.000 ns/op
+                 testMethod·p0.90:   15862988.800 ns/op
+                 testMethod·p0.95:   17570201.600 ns/op
+                 testMethod·p0.99:   24108728.320 ns/op
+                 testMethod·p0.999:  30507008.000 ns/op
+                 testMethod·p0.9999: 30507008.000 ns/op
+                 testMethod·p1.00:   30507008.000 ns/op
+
+Iteration   3: 13582892.522 ±(99.9%) 263558.875 ns/op
+                 testMethod·p0.00:   10469376.000 ns/op
+                 testMethod·p0.50:   13729792.000 ns/op
+                 testMethod·p0.90:   16023552.000 ns/op
+                 testMethod·p0.95:   16847667.200 ns/op
+                 testMethod·p0.99:   20762787.840 ns/op
+                 testMethod·p0.999:  24313856.000 ns/op
+                 testMethod·p0.9999: 24313856.000 ns/op
+                 testMethod·p1.00:   24313856.000 ns/op
+
+Iteration   4: 13638918.995 ±(99.9%) 248601.184 ns/op
+                 testMethod·p0.00:   10551296.000 ns/op
+                 testMethod·p0.50:   14000128.000 ns/op
+                 testMethod·p0.90:   15728640.000 ns/op
+                 testMethod·p0.95:   16728883.200 ns/op
+                 testMethod·p0.99:   20840775.680 ns/op
+                 testMethod·p0.999:  22052864.000 ns/op
+                 testMethod·p0.9999: 22052864.000 ns/op
+                 testMethod·p1.00:   22052864.000 ns/op
+
+Iteration   5: 15269938.104 ±(99.9%) 427714.594 ns/op
+                 testMethod·p0.00:   11124736.000 ns/op
+                 testMethod·p0.50:   15220736.000 ns/op
+                 testMethod·p0.90:   18546688.000 ns/op
+                 testMethod·p0.95:   21749760.000 ns/op
+                 testMethod·p0.99:   29165158.400 ns/op
+                 testMethod·p0.999:  35651584.000 ns/op
+                 testMethod·p0.9999: 35651584.000 ns/op
+                 testMethod·p1.00:   35651584.000 ns/op
+
+
+
+Result "io.github.greenrecyclebin.MyBenchmark.testMethod":
+  N = 18605
+  mean = 13421505.971 ±(99.9%) 68926.770 ns/op
+
+  Histogram, ns/op:
+    [       0.000,  5000000.000) = 0 
+    [ 5000000.000, 10000000.000) = 757 
+    [10000000.000, 15000000.000) = 13366 
+    [15000000.000, 20000000.000) = 4034 
+    [20000000.000, 25000000.000) = 332 
+    [25000000.000, 30000000.000) = 80 
+    [30000000.000, 35000000.000) = 24 
+    [35000000.000, 40000000.000) = 9 
+    [40000000.000, 45000000.000) = 3 
+
+  Percentiles, ns/op:
+      p(0.0000) = 7200768.000 ns/op
+     p(50.0000) = 13189120.000 ns/op
+     p(90.0000) = 16433152.000 ns/op
+     p(95.0000) = 17858560.000 ns/op
+     p(99.0000) = 23263313.920 ns/op
+     p(99.9000) = 33645789.184 ns/op
+     p(99.9900) = 42855786.086 ns/op
+     p(99.9990) = 44040192.000 ns/op
+     p(99.9999) = 44040192.000 ns/op
+    p(100.0000) = 44040192.000 ns/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.1, OpenJDK 64-Bit Server VM, 11.0.1+13
+# VM invoker: /usr/lib/jvm/java-11-openjdk-11.0.1.13-4.fc29.x86_64/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.greenrecyclebin.MyBenchmark.testMethod
+# Parameters: (minSize = 2)
+
+# Run progress: 50.00% complete, ETA 00:16:44
+# Fork: 1 of 5
+# Warmup Iteration   1: 2325965.959 ±(99.9%) 93486.997 ns/op
+# Warmup Iteration   2: 5384321.592 ±(99.9%) 137923.764 ns/op
+# Warmup Iteration   3: 8357850.265 ±(99.9%) 240556.399 ns/op
+# Warmup Iteration   4: 8057067.098 ±(99.9%) 185665.155 ns/op
+# Warmup Iteration   5: 9671119.923 ±(99.9%) 298742.246 ns/op
+Iteration   1: 11864827.743 ±(99.9%) 337669.947 ns/op
+                 testMethod·p0.00:   7151616.000 ns/op
+                 testMethod·p0.50:   11780096.000 ns/op
+                 testMethod·p0.90:   15597568.000 ns/op
+                 testMethod·p0.95:   17198284.800 ns/op
+                 testMethod·p0.99:   20316160.000 ns/op
+                 testMethod·p0.999:  27262976.000 ns/op
+                 testMethod·p0.9999: 27262976.000 ns/op
+                 testMethod·p1.00:   27262976.000 ns/op
+
+Iteration   2: 10273518.091 ±(99.9%) 220386.693 ns/op
+                 testMethod·p0.00:   7397376.000 ns/op
+                 testMethod·p0.50:   9592832.000 ns/op
+                 testMethod·p0.90:   13200588.800 ns/op
+                 testMethod·p0.95:   13932134.400 ns/op
+                 testMethod·p0.99:   15351808.000 ns/op
+                 testMethod·p0.999:  18022400.000 ns/op
+                 testMethod·p0.9999: 18022400.000 ns/op
+                 testMethod·p1.00:   18022400.000 ns/op
+
+Iteration   3: 10527350.819 ±(99.9%) 216665.194 ns/op
+                 testMethod·p0.00:   7905280.000 ns/op
+                 testMethod·p0.50:   9617408.000 ns/op
+                 testMethod·p0.90:   13272678.400 ns/op
+                 testMethod·p0.95:   13844480.000 ns/op
+                 testMethod·p0.99:   15221063.680 ns/op
+                 testMethod·p0.999:  17334272.000 ns/op
+                 testMethod·p0.9999: 17334272.000 ns/op
+                 testMethod·p1.00:   17334272.000 ns/op
+
+Iteration   4: 13233665.358 ±(99.9%) 343419.661 ns/op
+                 testMethod·p0.00:   8421376.000 ns/op
+                 testMethod·p0.50:   12992512.000 ns/op
+                 testMethod·p0.90:   15810560.000 ns/op
+                 testMethod·p0.95:   17285120.000 ns/op
+                 testMethod·p0.99:   24315494.400 ns/op
+                 testMethod·p0.999:  33488896.000 ns/op
+                 testMethod·p0.9999: 33488896.000 ns/op
+                 testMethod·p1.00:   33488896.000 ns/op
+
+Iteration   5: 13578974.609 ±(99.9%) 260774.644 ns/op
+                 testMethod·p0.00:   10420224.000 ns/op
+                 testMethod·p0.50:   13598720.000 ns/op
+                 testMethod·p0.90:   16220160.000 ns/op
+                 testMethod·p0.95:   16732979.200 ns/op
+                 testMethod·p0.99:   18518835.200 ns/op
+                 testMethod·p0.999:  25362432.000 ns/op
+                 testMethod·p0.9999: 25362432.000 ns/op
+                 testMethod·p1.00:   25362432.000 ns/op
+
+
+# Run progress: 55.00% complete, ETA 00:15:04
+# Fork: 2 of 5
+# Warmup Iteration   1: 2182223.898 ±(99.9%) 81617.346 ns/op
+# Warmup Iteration   2: 5371084.358 ±(99.9%) 115708.056 ns/op
+# Warmup Iteration   3: 6775490.303 ±(99.9%) 158063.458 ns/op
+# Warmup Iteration   4: 8218095.538 ±(99.9%) 184747.123 ns/op
+# Warmup Iteration   5: 10032255.486 ±(99.9%) 300025.654 ns/op
+Iteration   1: 10225695.443 ±(99.9%) 303749.972 ns/op
+                 testMethod·p0.00:   7241728.000 ns/op
+                 testMethod·p0.50:   9224192.000 ns/op
+                 testMethod·p0.90:   13523353.600 ns/op
+                 testMethod·p0.95:   15738470.400 ns/op
+                 testMethod·p0.99:   20090060.800 ns/op
+                 testMethod·p0.999:  27230208.000 ns/op
+                 testMethod·p0.9999: 27230208.000 ns/op
+                 testMethod·p1.00:   27230208.000 ns/op
+
+Iteration   2: 10444525.791 ±(99.9%) 241025.783 ns/op
+                 testMethod·p0.00:   7634944.000 ns/op
+                 testMethod·p0.50:   9551872.000 ns/op
+                 testMethod·p0.90:   13254656.000 ns/op
+                 testMethod·p0.95:   14518681.600 ns/op
+                 testMethod·p0.99:   16772628.480 ns/op
+                 testMethod·p0.999:  21659648.000 ns/op
+                 testMethod·p0.9999: 21659648.000 ns/op
+                 testMethod·p1.00:   21659648.000 ns/op
+
+Iteration   3: 11944987.012 ±(99.9%) 279763.829 ns/op
+                 testMethod·p0.00:   8282112.000 ns/op
+                 testMethod·p0.50:   11862016.000 ns/op
+                 testMethod·p0.90:   15065088.000 ns/op
+                 testMethod·p0.95:   16031744.000 ns/op
+                 testMethod·p0.99:   18043699.200 ns/op
+                 testMethod·p0.999:  21921792.000 ns/op
+                 testMethod·p0.9999: 21921792.000 ns/op
+                 testMethod·p1.00:   21921792.000 ns/op
+
+Iteration   4: 13709609.789 ±(99.9%) 292057.768 ns/op
+                 testMethod·p0.00:   10387456.000 ns/op
+                 testMethod·p0.50:   13729792.000 ns/op
+                 testMethod·p0.90:   16367616.000 ns/op
+                 testMethod·p0.95:   17170432.000 ns/op
+                 testMethod·p0.99:   22750822.400 ns/op
+                 testMethod·p0.999:  26443776.000 ns/op
+                 testMethod·p0.9999: 26443776.000 ns/op
+                 testMethod·p1.00:   26443776.000 ns/op
+
+Iteration   5: 13989824.896 ±(99.9%) 263883.977 ns/op
+                 testMethod·p0.00:   10960896.000 ns/op
+                 testMethod·p0.50:   14286848.000 ns/op
+                 testMethod·p0.90:   16474112.000 ns/op
+                 testMethod·p0.95:   17252352.000 ns/op
+                 testMethod·p0.99:   19657523.200 ns/op
+                 testMethod·p0.999:  22511616.000 ns/op
+                 testMethod·p0.9999: 22511616.000 ns/op
+                 testMethod·p1.00:   22511616.000 ns/op
+
+
+# Run progress: 60.00% complete, ETA 00:13:23
+# Fork: 3 of 5
+# Warmup Iteration   1: 2112640.204 ±(99.9%) 75149.695 ns/op
+# Warmup Iteration   2: 4973466.265 ±(99.9%) 75629.744 ns/op
+# Warmup Iteration   3: 6427093.773 ±(99.9%) 118131.166 ns/op
+# Warmup Iteration   4: 7228052.932 ±(99.9%) 75243.080 ns/op
+# Warmup Iteration   5: 8646560.249 ±(99.9%) 163598.235 ns/op
+Iteration   1: 8692952.564 ±(99.9%) 101479.657 ns/op
+                 testMethod·p0.00:   7405568.000 ns/op
+                 testMethod·p0.50:   8380416.000 ns/op
+                 testMethod·p0.90:   10141696.000 ns/op
+                 testMethod·p0.95:   10944512.000 ns/op
+                 testMethod·p0.99:   12271616.000 ns/op
+                 testMethod·p0.999:  13783040.000 ns/op
+                 testMethod·p0.9999: 13795328.000 ns/op
+                 testMethod·p1.00:   13795328.000 ns/op
+
+Iteration   2: 11263972.231 ±(99.9%) 220727.182 ns/op
+                 testMethod·p0.00:   8077312.000 ns/op
+                 testMethod·p0.50:   10665984.000 ns/op
+                 testMethod·p0.90:   14080409.600 ns/op
+                 testMethod·p0.95:   14303232.000 ns/op
+                 testMethod·p0.99:   16173301.760 ns/op
+                 testMethod·p0.999:  18579456.000 ns/op
+                 testMethod·p0.9999: 18579456.000 ns/op
+                 testMethod·p1.00:   18579456.000 ns/op
+
+Iteration   3: 11768150.539 ±(99.9%) 146745.758 ns/op
+                 testMethod·p0.00:   10174464.000 ns/op
+                 testMethod·p0.50:   11403264.000 ns/op
+                 testMethod·p0.90:   13713408.000 ns/op
+                 testMethod·p0.95:   14393344.000 ns/op
+                 testMethod·p0.99:   16056320.000 ns/op
+                 testMethod·p0.999:  19136512.000 ns/op
+                 testMethod·p0.9999: 19136512.000 ns/op
+                 testMethod·p1.00:   19136512.000 ns/op
+
+Iteration   4: 12855324.994 ±(99.9%) 209895.505 ns/op
+                 testMethod·p0.00:   10518528.000 ns/op
+                 testMethod·p0.50:   12255232.000 ns/op
+                 testMethod·p0.90:   15174860.800 ns/op
+                 testMethod·p0.95:   15599206.400 ns/op
+                 testMethod·p0.99:   17483038.720 ns/op
+                 testMethod·p0.999:  20185088.000 ns/op
+                 testMethod·p0.9999: 20185088.000 ns/op
+                 testMethod·p1.00:   20185088.000 ns/op
+
+Iteration   5: 12410727.354 ±(99.9%) 135739.304 ns/op
+                 testMethod·p0.00:   10977280.000 ns/op
+                 testMethod·p0.50:   12173312.000 ns/op
+                 testMethod·p0.90:   13844480.000 ns/op
+                 testMethod·p0.95:   14811136.000 ns/op
+                 testMethod·p0.99:   16073359.360 ns/op
+                 testMethod·p0.999:  20971520.000 ns/op
+                 testMethod·p0.9999: 20971520.000 ns/op
+                 testMethod·p1.00:   20971520.000 ns/op
+
+
+# Run progress: 65.00% complete, ETA 00:11:43
+# Fork: 4 of 5
+# Warmup Iteration   1: 2213299.793 ±(99.9%) 79820.549 ns/op
+# Warmup Iteration   2: 4856695.700 ±(99.9%) 62839.054 ns/op
+# Warmup Iteration   3: 6475714.866 ±(99.9%) 121053.223 ns/op
+# Warmup Iteration   4: 7463236.496 ±(99.9%) 83064.846 ns/op
+# Warmup Iteration   5: 8752810.966 ±(99.9%) 147625.069 ns/op
+Iteration   1: 9022218.869 ±(99.9%) 112330.214 ns/op
+                 testMethod·p0.00:   7708672.000 ns/op
+                 testMethod·p0.50:   8749056.000 ns/op
+                 testMethod·p0.90:   10226892.800 ns/op
+                 testMethod·p0.95:   11373772.800 ns/op
+                 testMethod·p0.99:   13430947.840 ns/op
+                 testMethod·p0.999:  18174967.808 ns/op
+                 testMethod·p0.9999: 18415616.000 ns/op
+                 testMethod·p1.00:   18415616.000 ns/op
+
+Iteration   2: 10690630.318 ±(99.9%) 206107.713 ns/op
+                 testMethod·p0.00:   8486912.000 ns/op
+                 testMethod·p0.50:   10158080.000 ns/op
+                 testMethod·p0.90:   13172736.000 ns/op
+                 testMethod·p0.95:   13955072.000 ns/op
+                 testMethod·p0.99:   15461089.280 ns/op
+                 testMethod·p0.999:  25886720.000 ns/op
+                 testMethod·p0.9999: 25886720.000 ns/op
+                 testMethod·p1.00:   25886720.000 ns/op
+
+Iteration   3: 12472621.703 ±(99.9%) 163403.796 ns/op
+                 testMethod·p0.00:   10436608.000 ns/op
+                 testMethod·p0.50:   12140544.000 ns/op
+                 testMethod·p0.90:   14365491.200 ns/op
+                 testMethod·p0.95:   15183052.800 ns/op
+                 testMethod·p0.99:   16218521.600 ns/op
+                 testMethod·p0.999:  25690112.000 ns/op
+                 testMethod·p0.9999: 25690112.000 ns/op
+                 testMethod·p1.00:   25690112.000 ns/op
+
+Iteration   4: 13556770.735 ±(99.9%) 222565.528 ns/op
+                 testMethod·p0.00:   10993664.000 ns/op
+                 testMethod·p0.50:   13025280.000 ns/op
+                 testMethod·p0.90:   15781068.800 ns/op
+                 testMethod·p0.95:   16515072.000 ns/op
+                 testMethod·p0.99:   18930073.600 ns/op
+                 testMethod·p0.999:  23986176.000 ns/op
+                 testMethod·p0.9999: 23986176.000 ns/op
+                 testMethod·p1.00:   23986176.000 ns/op
+
+Iteration   5: 13159093.460 ±(99.9%) 148513.837 ns/op
+                 testMethod·p0.00:   11665408.000 ns/op
+                 testMethod·p0.50:   12926976.000 ns/op
+                 testMethod·p0.90:   14778368.000 ns/op
+                 testMethod·p0.95:   15679488.000 ns/op
+                 testMethod·p0.99:   17537433.600 ns/op
+                 testMethod·p0.999:  20611072.000 ns/op
+                 testMethod·p0.9999: 20611072.000 ns/op
+                 testMethod·p1.00:   20611072.000 ns/op
+
+
+# Run progress: 70.00% complete, ETA 00:10:02
+# Fork: 5 of 5
+# Warmup Iteration   1: 2086143.355 ±(99.9%) 70569.178 ns/op
+# Warmup Iteration   2: 4955878.782 ±(99.9%) 59812.259 ns/op
+# Warmup Iteration   3: 6567166.988 ±(99.9%) 121832.787 ns/op
+# Warmup Iteration   4: 7724815.245 ±(99.9%) 125342.774 ns/op
+# Warmup Iteration   5: 8589604.320 ±(99.9%) 152870.468 ns/op
+Iteration   1: 8797442.932 ±(99.9%) 117103.400 ns/op
+                 testMethod·p0.00:   7479296.000 ns/op
+                 testMethod·p0.50:   8454144.000 ns/op
+                 testMethod·p0.90:   10338304.000 ns/op
+                 testMethod·p0.95:   11291852.800 ns/op
+                 testMethod·p0.99:   13189775.360 ns/op
+                 testMethod·p0.999:  18921029.632 ns/op
+                 testMethod·p0.9999: 19103744.000 ns/op
+                 testMethod·p1.00:   19103744.000 ns/op
+
+Iteration   2: 10606435.132 ±(99.9%) 204824.809 ns/op
+                 testMethod·p0.00:   8093696.000 ns/op
+                 testMethod·p0.50:   10469376.000 ns/op
+                 testMethod·p0.90:   13303808.000 ns/op
+                 testMethod·p0.95:   13926400.000 ns/op
+                 testMethod·p0.99:   14912389.120 ns/op
+                 testMethod·p0.999:  16744448.000 ns/op
+                 testMethod·p0.9999: 16744448.000 ns/op
+                 testMethod·p1.00:   16744448.000 ns/op
+
+Iteration   3: 11711083.442 ±(99.9%) 140740.439 ns/op
+                 testMethod·p0.00:   10158080.000 ns/op
+                 testMethod·p0.50:   11370496.000 ns/op
+                 testMethod·p0.90:   13549568.000 ns/op
+                 testMethod·p0.95:   14308147.200 ns/op
+                 testMethod·p0.99:   16160849.920 ns/op
+                 testMethod·p0.999:  21626880.000 ns/op
+                 testMethod·p0.9999: 21626880.000 ns/op
+                 testMethod·p1.00:   21626880.000 ns/op
+
+Iteration   4: 12941449.948 ±(99.9%) 209828.946 ns/op
+                 testMethod·p0.00:   10665984.000 ns/op
+                 testMethod·p0.50:   12328960.000 ns/op
+                 testMethod·p0.90:   15286272.000 ns/op
+                 testMethod·p0.95:   15499264.000 ns/op
+                 testMethod·p0.99:   17398824.960 ns/op
+                 testMethod·p0.999:  22347776.000 ns/op
+                 testMethod·p0.9999: 22347776.000 ns/op
+                 testMethod·p1.00:   22347776.000 ns/op
+
+Iteration   5: 12737577.796 ±(99.9%) 173237.597 ns/op
+                 testMethod·p0.00:   11075584.000 ns/op
+                 testMethod·p0.50:   12328960.000 ns/op
+                 testMethod·p0.90:   14737408.000 ns/op
+                 testMethod·p0.95:   15400960.000 ns/op
+                 testMethod·p0.99:   17632460.800 ns/op
+                 testMethod·p0.999:  26607616.000 ns/op
+                 testMethod·p0.9999: 26607616.000 ns/op
+                 testMethod·p1.00:   26607616.000 ns/op
+
+
+
+Result "io.github.greenrecyclebin.MyBenchmark.testMethod":
+  N = 21747
+  mean = 11478309.681 ±(99.9%) 55738.396 ns/op
+
+  Histogram, ns/op:
+    [       0.000,  2500000.000) = 0 
+    [ 2500000.000,  5000000.000) = 0 
+    [ 5000000.000,  7500000.000) = 82 
+    [ 7500000.000, 10000000.000) = 6520 
+    [10000000.000, 12500000.000) = 8316 
+    [12500000.000, 15000000.000) = 4871 
+    [15000000.000, 17500000.000) = 1702 
+    [17500000.000, 20000000.000) = 175 
+    [20000000.000, 22500000.000) = 48 
+    [22500000.000, 25000000.000) = 18 
+    [25000000.000, 27500000.000) = 12 
+    [27500000.000, 30000000.000) = 1 
+    [30000000.000, 32500000.000) = 1 
+    [32500000.000, 35000000.000) = 1 
+    [35000000.000, 37500000.000) = 0 
+
+  Percentiles, ns/op:
+      p(0.0000) = 7151616.000 ns/op
+     p(50.0000) = 11436032.000 ns/op
+     p(90.0000) = 14860288.000 ns/op
+     p(95.0000) = 15597568.000 ns/op
+     p(99.0000) = 17825792.000 ns/op
+     p(99.9000) = 24240586.752 ns/op
+     p(99.9900) = 30950961.971 ns/op
+     p(99.9990) = 33488896.000 ns/op
+     p(99.9999) = 33488896.000 ns/op
+    p(100.0000) = 33488896.000 ns/op
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.1, OpenJDK 64-Bit Server VM, 11.0.1+13
+# VM invoker: /usr/lib/jvm/java-11-openjdk-11.0.1.13-4.fc29.x86_64/bin/java
+# VM options: <none>
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: io.github.greenrecyclebin.MyBenchmark.testMethod
+# Parameters: (minSize = 3)
+
+# Run progress: 75.00% complete, ETA 00:08:22
+# Fork: 1 of 5
+# Warmup Iteration   1: 2226312.196 ±(99.9%) 88260.952 ns/op
+# Warmup Iteration   2: 4687214.985 ±(99.9%) 106140.294 ns/op
+# Warmup Iteration   3: 5509773.641 ±(99.9%) 110985.806 ns/op
+# Warmup Iteration   4: 7967703.955 ±(99.9%) 175772.782 ns/op
+# Warmup Iteration   5: 8693124.906 ±(99.9%) 156083.759 ns/op
+Iteration   1: 11065437.194 ±(99.9%) 245214.354 ns/op
+                 testMethod·p0.00:   7602176.000 ns/op
+                 testMethod·p0.50:   10469376.000 ns/op
+                 testMethod·p0.90:   13860864.000 ns/op
+                 testMethod·p0.95:   14655488.000 ns/op
+                 testMethod·p0.99:   17873633.280 ns/op
+                 testMethod·p0.999:  25362432.000 ns/op
+                 testMethod·p0.9999: 25362432.000 ns/op
+                 testMethod·p1.00:   25362432.000 ns/op
+
+Iteration   2: 12165179.796 ±(99.9%) 281986.562 ns/op
+                 testMethod·p0.00:   9125888.000 ns/op
+                 testMethod·p0.50:   11649024.000 ns/op
+                 testMethod·p0.90:   14893056.000 ns/op
+                 testMethod·p0.95:   16510156.800 ns/op
+                 testMethod·p0.99:   20170342.400 ns/op
+                 testMethod·p0.999:  24969216.000 ns/op
+                 testMethod·p0.9999: 24969216.000 ns/op
+                 testMethod·p1.00:   24969216.000 ns/op
+
+Iteration   3: 12660658.129 ±(99.9%) 341067.470 ns/op
+                 testMethod·p0.00:   8994816.000 ns/op
+                 testMethod·p0.50:   12206080.000 ns/op
+                 testMethod·p0.90:   15859712.000 ns/op
+                 testMethod·p0.95:   17006592.000 ns/op
+                 testMethod·p0.99:   23104716.800 ns/op
+                 testMethod·p0.999:  32735232.000 ns/op
+                 testMethod·p0.9999: 32735232.000 ns/op
+                 testMethod·p1.00:   32735232.000 ns/op
+
+Iteration   4: 12401448.020 ±(99.9%) 235334.641 ns/op
+                 testMethod·p0.00:   9814016.000 ns/op
+                 testMethod·p0.50:   12034048.000 ns/op
+                 testMethod·p0.90:   14832435.200 ns/op
+                 testMethod·p0.95:   15268249.600 ns/op
+                 testMethod·p0.99:   17135370.240 ns/op
+                 testMethod·p0.999:  22544384.000 ns/op
+                 testMethod·p0.9999: 22544384.000 ns/op
+                 testMethod·p1.00:   22544384.000 ns/op
+
+Iteration   5: 13190071.050 ±(99.9%) 256484.783 ns/op
+                 testMethod·p0.00:   10272768.000 ns/op
+                 testMethod·p0.50:   13148160.000 ns/op
+                 testMethod·p0.90:   15859712.000 ns/op
+                 testMethod·p0.95:   16531456.000 ns/op
+                 testMethod·p0.99:   18162647.040 ns/op
+                 testMethod·p0.999:  23986176.000 ns/op
+                 testMethod·p0.9999: 23986176.000 ns/op
+                 testMethod·p1.00:   23986176.000 ns/op
+
+
+# Run progress: 80.00% complete, ETA 00:06:41
+# Fork: 2 of 5
+# Warmup Iteration   1: 2211427.747 ±(99.9%) 78428.512 ns/op
+# Warmup Iteration   2: 5777186.242 ±(99.9%) 130520.406 ns/op
+# Warmup Iteration   3: 6697237.835 ±(99.9%) 126734.753 ns/op
+# Warmup Iteration   4: 8677733.644 ±(99.9%) 233878.262 ns/op
+# Warmup Iteration   5: 9386638.436 ±(99.9%) 228096.144 ns/op
+Iteration   1: 10543311.611 ±(99.9%) 292096.974 ns/op
+                 testMethod·p0.00:   7495680.000 ns/op
+                 testMethod·p0.50:   9519104.000 ns/op
+                 testMethod·p0.90:   14745600.000 ns/op
+                 testMethod·p0.95:   16187392.000 ns/op
+                 testMethod·p0.99:   17910988.800 ns/op
+                 testMethod·p0.999:  20971520.000 ns/op
+                 testMethod·p0.9999: 20971520.000 ns/op
+                 testMethod·p1.00:   20971520.000 ns/op
+
+Iteration   2: 12967211.610 ±(99.9%) 394086.672 ns/op
+                 testMethod·p0.00:   8314880.000 ns/op
+                 testMethod·p0.50:   12795904.000 ns/op
+                 testMethod·p0.90:   16973824.000 ns/op
+                 testMethod·p0.95:   18563072.000 ns/op
+                 testMethod·p0.99:   24972492.800 ns/op
+                 testMethod·p0.999:  33357824.000 ns/op
+                 testMethod·p0.9999: 33357824.000 ns/op
+                 testMethod·p1.00:   33357824.000 ns/op
+
+Iteration   3: 13029637.674 ±(99.9%) 411217.661 ns/op
+                 testMethod·p0.00:   8798208.000 ns/op
+                 testMethod·p0.50:   12845056.000 ns/op
+                 testMethod·p0.90:   16927948.800 ns/op
+                 testMethod·p0.95:   19634585.600 ns/op
+                 testMethod·p0.99:   25413550.080 ns/op
+                 testMethod·p0.999:  32047104.000 ns/op
+                 testMethod·p0.9999: 32047104.000 ns/op
+                 testMethod·p1.00:   32047104.000 ns/op
+
+Iteration   4: 20974748.713 ±(99.9%) 1077999.702 ns/op
+                 testMethod·p0.00:   10240000.000 ns/op
+                 testMethod·p0.50:   18546688.000 ns/op
+                 testMethod·p0.90:   32033996.800 ns/op
+                 testMethod·p0.95:   34563686.400 ns/op
+                 testMethod·p0.99:   38554828.800 ns/op
+                 testMethod·p0.999:  44367872.000 ns/op
+                 testMethod·p0.9999: 44367872.000 ns/op
+                 testMethod·p1.00:   44367872.000 ns/op
+
+Iteration   5: 20559930.996 ±(99.9%) 911370.214 ns/op
+                 testMethod·p0.00:   10993664.000 ns/op
+                 testMethod·p0.50:   18956288.000 ns/op
+                 testMethod·p0.90:   29061939.200 ns/op
+                 testMethod·p0.95:   34481766.400 ns/op
+                 testMethod·p0.99:   41886023.680 ns/op
+                 testMethod·p0.999:  48758784.000 ns/op
+                 testMethod·p0.9999: 48758784.000 ns/op
+                 testMethod·p1.00:   48758784.000 ns/op
+
+
+# Run progress: 85.00% complete, ETA 00:05:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 2443223.593 ±(99.9%) 85353.812 ns/op
+# Warmup Iteration   2: 5459649.298 ±(99.9%) 147514.773 ns/op
+# Warmup Iteration   3: 7111661.010 ±(99.9%) 188450.092 ns/op
+# Warmup Iteration   4: 8221461.509 ±(99.9%) 188356.500 ns/op
+# Warmup Iteration   5: 9233996.658 ±(99.9%) 220669.940 ns/op
+Iteration   1: 10325012.120 ±(99.9%) 263383.372 ns/op
+                 testMethod·p0.00:   7036928.000 ns/op
+                 testMethod·p0.50:   9846784.000 ns/op
+                 testMethod·p0.90:   13713408.000 ns/op
+                 testMethod·p0.95:   14532608.000 ns/op
+                 testMethod·p0.99:   16536698.880 ns/op
+                 testMethod·p0.999:  18841600.000 ns/op
+                 testMethod·p0.9999: 18841600.000 ns/op
+                 testMethod·p1.00:   18841600.000 ns/op
+
+Iteration   2: 12928102.267 ±(99.9%) 599291.234 ns/op
+                 testMethod·p0.00:   7585792.000 ns/op
+                 testMethod·p0.50:   11681792.000 ns/op
+                 testMethod·p0.90:   19562496.000 ns/op
+                 testMethod·p0.95:   22688563.200 ns/op
+                 testMethod·p0.99:   30902845.440 ns/op
+                 testMethod·p0.999:  38141952.000 ns/op
+                 testMethod·p0.9999: 38141952.000 ns/op
+                 testMethod·p1.00:   38141952.000 ns/op
+
+Iteration   3: 11148635.429 ±(99.9%) 217404.136 ns/op
+                 testMethod·p0.00:   8486912.000 ns/op
+                 testMethod·p0.50:   10526720.000 ns/op
+                 testMethod·p0.90:   13521715.200 ns/op
+                 testMethod·p0.95:   14275379.200 ns/op
+                 testMethod·p0.99:   17106862.080 ns/op
+                 testMethod·p0.999:  21331968.000 ns/op
+                 testMethod·p0.9999: 21331968.000 ns/op
+                 testMethod·p1.00:   21331968.000 ns/op
+
+Iteration   4: 11822830.125 ±(99.9%) 220013.863 ns/op
+                 testMethod·p0.00:   9011200.000 ns/op
+                 testMethod·p0.50:   11321344.000 ns/op
+                 testMethod·p0.90:   14286848.000 ns/op
+                 testMethod·p0.95:   14970060.800 ns/op
+                 testMethod·p0.99:   16524247.040 ns/op
+                 testMethod·p0.999:  18546688.000 ns/op
+                 testMethod·p0.9999: 18546688.000 ns/op
+                 testMethod·p1.00:   18546688.000 ns/op
+
+Iteration   5: 12469328.539 ±(99.9%) 255868.379 ns/op
+                 testMethod·p0.00:   9535488.000 ns/op
+                 testMethod·p0.50:   12107776.000 ns/op
+                 testMethod·p0.90:   15250227.200 ns/op
+                 testMethod·p0.95:   15971123.200 ns/op
+                 testMethod·p0.99:   18178375.680 ns/op
+                 testMethod·p0.999:  23920640.000 ns/op
+                 testMethod·p0.9999: 23920640.000 ns/op
+                 testMethod·p1.00:   23920640.000 ns/op
+
+
+# Run progress: 90.00% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 2304864.164 ±(99.9%) 79192.274 ns/op
+# Warmup Iteration   2: 5700986.002 ±(99.9%) 169592.214 ns/op
+# Warmup Iteration   3: 7772846.927 ±(99.9%) 213911.100 ns/op
+# Warmup Iteration   4: 9019658.407 ±(99.9%) 211815.564 ns/op
+# Warmup Iteration   5: 9514461.867 ±(99.9%) 224034.148 ns/op
+Iteration   1: 10904625.188 ±(99.9%) 307205.968 ns/op
+                 testMethod·p0.00:   7118848.000 ns/op
+                 testMethod·p0.50:   10633216.000 ns/op
+                 testMethod·p0.90:   14630912.000 ns/op
+                 testMethod·p0.95:   15826944.000 ns/op
+                 testMethod·p0.99:   18119393.280 ns/op
+                 testMethod·p0.999:  23724032.000 ns/op
+                 testMethod·p0.9999: 23724032.000 ns/op
+                 testMethod·p1.00:   23724032.000 ns/op
+
+Iteration   2: 11747675.364 ±(99.9%) 297804.546 ns/op
+                 testMethod·p0.00:   7733248.000 ns/op
+                 testMethod·p0.50:   11698176.000 ns/op
+                 testMethod·p0.90:   15122432.000 ns/op
+                 testMethod·p0.95:   16023552.000 ns/op
+                 testMethod·p0.99:   18137088.000 ns/op
+                 testMethod·p0.999:  21299200.000 ns/op
+                 testMethod·p0.9999: 21299200.000 ns/op
+                 testMethod·p1.00:   21299200.000 ns/op
+
+Iteration   3: 12421109.811 ±(99.9%) 307390.603 ns/op
+                 testMethod·p0.00:   8814592.000 ns/op
+                 testMethod·p0.50:   12386304.000 ns/op
+                 testMethod·p0.90:   15753216.000 ns/op
+                 testMethod·p0.95:   16723968.000 ns/op
+                 testMethod·p0.99:   19591987.200 ns/op
+                 testMethod·p0.999:  21954560.000 ns/op
+                 testMethod·p0.9999: 21954560.000 ns/op
+                 testMethod·p1.00:   21954560.000 ns/op
+
+Iteration   4: 14233751.704 ±(99.9%) 435000.780 ns/op
+                 testMethod·p0.00:   9322496.000 ns/op
+                 testMethod·p0.50:   14336000.000 ns/op
+                 testMethod·p0.90:   18156748.800 ns/op
+                 testMethod·p0.95:   19880345.600 ns/op
+                 testMethod·p0.99:   27404206.080 ns/op
+                 testMethod·p0.999:  30539776.000 ns/op
+                 testMethod·p0.9999: 30539776.000 ns/op
+                 testMethod·p1.00:   30539776.000 ns/op
+
+Iteration   5: 16330430.745 ±(99.9%) 578048.792 ns/op
+                 testMethod·p0.00:   9437184.000 ns/op
+                 testMethod·p0.50:   16220160.000 ns/op
+                 testMethod·p0.90:   21977497.600 ns/op
+                 testMethod·p0.95:   24726732.800 ns/op
+                 testMethod·p0.99:   30410342.400 ns/op
+                 testMethod·p0.999:  33751040.000 ns/op
+                 testMethod·p0.9999: 33751040.000 ns/op
+                 testMethod·p1.00:   33751040.000 ns/op
+
+
+# Run progress: 95.00% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 2485307.717 ±(99.9%) 94834.144 ns/op
+# Warmup Iteration   2: 5395994.072 ±(99.9%) 138673.202 ns/op
+# Warmup Iteration   3: 7288267.189 ±(99.9%) 186424.910 ns/op
+# Warmup Iteration   4: 8022964.270 ±(99.9%) 190342.219 ns/op
+# Warmup Iteration   5: 9711803.086 ±(99.9%) 246801.704 ns/op
+Iteration   1: 11089856.284 ±(99.9%) 313965.029 ns/op
+                 testMethod·p0.00:   7225344.000 ns/op
+                 testMethod·p0.50:   10706944.000 ns/op
+                 testMethod·p0.90:   14627635.200 ns/op
+                 testMethod·p0.95:   15725363.200 ns/op
+                 testMethod·p0.99:   18938593.280 ns/op
+                 testMethod·p0.999:  27656192.000 ns/op
+                 testMethod·p0.9999: 27656192.000 ns/op
+                 testMethod·p1.00:   27656192.000 ns/op
+
+Iteration   2: 13181729.862 ±(99.9%) 447172.100 ns/op
+                 testMethod·p0.00:   7643136.000 ns/op
+                 testMethod·p0.50:   13131776.000 ns/op
+                 testMethod·p0.90:   17039360.000 ns/op
+                 testMethod·p0.95:   19231539.200 ns/op
+                 testMethod·p0.99:   27082752.000 ns/op
+                 testMethod·p0.999:  38928384.000 ns/op
+                 testMethod·p0.9999: 38928384.000 ns/op
+                 testMethod·p1.00:   38928384.000 ns/op
+
+Iteration   3: 13940613.177 ±(99.9%) 456400.278 ns/op
+                 testMethod·p0.00:   9207808.000 ns/op
+                 testMethod·p0.50:   13025280.000 ns/op
+                 testMethod·p0.90:   18815385.600 ns/op
+                 testMethod·p0.95:   21200896.000 ns/op
+                 testMethod·p0.99:   28424273.920 ns/op
+                 testMethod·p0.999:  37093376.000 ns/op
+                 testMethod·p0.9999: 37093376.000 ns/op
+                 testMethod·p1.00:   37093376.000 ns/op
+
+Iteration   4: 15157437.572 ±(99.9%) 729823.754 ns/op
+                 testMethod·p0.00:   9306112.000 ns/op
+                 testMethod·p0.50:   13942784.000 ns/op
+                 testMethod·p0.90:   22740992.000 ns/op
+                 testMethod·p0.95:   28246016.000 ns/op
+                 testMethod·p0.99:   35048652.800 ns/op
+                 testMethod·p0.999:  46268416.000 ns/op
+                 testMethod·p0.9999: 46268416.000 ns/op
+                 testMethod·p1.00:   46268416.000 ns/op
+
+Iteration   5: 13624044.791 ±(99.9%) 553299.895 ns/op
+                 testMethod·p0.00:   9437184.000 ns/op
+                 testMethod·p0.50:   12926976.000 ns/op
+                 testMethod·p0.90:   17681612.800 ns/op
+                 testMethod·p0.95:   21561344.000 ns/op
+                 testMethod·p0.99:   33547878.400 ns/op
+                 testMethod·p0.999:  48627712.000 ns/op
+                 testMethod·p0.9999: 48627712.000 ns/op
+                 testMethod·p1.00:   48627712.000 ns/op
+
+
+
+Result "io.github.greenrecyclebin.MyBenchmark.testMethod":
+  N = 19450
+  mean = 12836563.697 ±(99.9%) 96828.497 ns/op
+
+  Histogram, ns/op:
+    [       0.000,  5000000.000) = 0 
+    [ 5000000.000, 10000000.000) = 4757 
+    [10000000.000, 15000000.000) = 10785 
+    [15000000.000, 20000000.000) = 2984 
+    [20000000.000, 25000000.000) = 512 
+    [25000000.000, 30000000.000) = 233 
+    [30000000.000, 35000000.000) = 123 
+    [35000000.000, 40000000.000) = 43 
+    [40000000.000, 45000000.000) = 9 
+
+  Percentiles, ns/op:
+      p(0.0000) = 7036928.000 ns/op
+     p(50.0000) = 12222464.000 ns/op
+     p(90.0000) = 17072128.000 ns/op
+     p(95.0000) = 19773849.600 ns/op
+     p(99.0000) = 29655040.000 ns/op
+     p(99.9000) = 38177931.264 ns/op
+     p(99.9900) = 48634907.853 ns/op
+     p(99.9990) = 48758784.000 ns/op
+     p(99.9999) = 48758784.000 ns/op
+    p(100.0000) = 48758784.000 ns/op
+
+
+# Run complete. Total time: 00:33:28
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                  (minSize)    Mode    Cnt         Score       Error  Units
+MyBenchmark.testMethod                             0  sample  17029  14662671.695 ± 98223.314  ns/op
+MyBenchmark.testMethod:testMethod·p0.00            0  sample          9060352.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.50            0  sample         14024704.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.90            0  sample         18907136.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.95            0  sample         21544960.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.99            0  sample         28662169.600              ns/op
+MyBenchmark.testMethod:testMethod·p0.999           0  sample         39643381.760              ns/op
+MyBenchmark.testMethod:testMethod·p0.9999          0  sample         46280736.768              ns/op
+MyBenchmark.testMethod:testMethod·p1.00            0  sample         46465024.000              ns/op
+MyBenchmark.testMethod                             1  sample  18605  13421505.971 ± 68926.770  ns/op
+MyBenchmark.testMethod:testMethod·p0.00            1  sample          7200768.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.50            1  sample         13189120.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.90            1  sample         16433152.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.95            1  sample         17858560.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.99            1  sample         23263313.920              ns/op
+MyBenchmark.testMethod:testMethod·p0.999           1  sample         33645789.184              ns/op
+MyBenchmark.testMethod:testMethod·p0.9999          1  sample         42855786.086              ns/op
+MyBenchmark.testMethod:testMethod·p1.00            1  sample         44040192.000              ns/op
+MyBenchmark.testMethod                             2  sample  21747  11478309.681 ± 55738.396  ns/op
+MyBenchmark.testMethod:testMethod·p0.00            2  sample          7151616.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.50            2  sample         11436032.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.90            2  sample         14860288.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.95            2  sample         15597568.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.99            2  sample         17825792.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.999           2  sample         24240586.752              ns/op
+MyBenchmark.testMethod:testMethod·p0.9999          2  sample         30950961.971              ns/op
+MyBenchmark.testMethod:testMethod·p1.00            2  sample         33488896.000              ns/op
+MyBenchmark.testMethod                             3  sample  19450  12836563.697 ± 96828.497  ns/op
+MyBenchmark.testMethod:testMethod·p0.00            3  sample          7036928.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.50            3  sample         12222464.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.90            3  sample         17072128.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.95            3  sample         19773849.600              ns/op
+MyBenchmark.testMethod:testMethod·p0.99            3  sample         29655040.000              ns/op
+MyBenchmark.testMethod:testMethod·p0.999           3  sample         38177931.264              ns/op
+MyBenchmark.testMethod:testMethod·p0.9999          3  sample         48634907.853              ns/op
+MyBenchmark.testMethod:testMethod·p1.00            3  sample         48758784.000              ns/op
